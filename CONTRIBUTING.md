@@ -447,7 +447,7 @@ Once you find an issue you want to work on, you need to self-assign to claim it 
 <details>
   <summary><strong>Click here</strong> to see how you assign & unassign yourself to an issue</summary>
   <p><strong>Assign/Unassign demo</strong></p>
-  <img src="https://user-images.githubusercontent.com/21162229/137636320-e96ef70d-3c85-405e-90d2-ee7b3bba071f.gif" />
+  <img src="https://user-images.githubusercontent.com/21162229/137636320-e96ef70d-3c85-405e-90d2-ee7b3bba071f.gif">
 </details>
 
 ##### **i. If you want to to self assign an issue:**
@@ -634,17 +634,18 @@ git commit -m “insert message here”
 
 #### **2.7.d Working on an issue (4): Pulling from upstream before you push**
 
-**IMPORTANT:** Before you push your local commits to your repository, sync your fork to the main Hack For LA website repository. `git pull upstream gh-pages` will ensure that your local repository is up-to-date with the main site:
-
-```bash
-git pull upstream gh-pages
-```
-You can also sync your fork directly on GitHub by clicking "Sync Fork" at the right of the screen and then clicking "Update Branch"
+**IMPORTANT:** Before you push your local commits to your repository, sync your fork to the main Hack For LA website repository. You can sync your fork directly on GitHub by clicking "Sync Fork" at the right of the screen and then clicking "Update Branch":
 
 <details>
   <summary><strong>Click here</strong> to see how to sync the fork on GitHub</summary>
   <img src="https://raw.githubusercontent.com/wiki/hackforla/website/images/how-to-review-pull-requests/step3-sync-demo.gif" />
 </details>
+
+Next, bring upstream changes into your topic branch. With your topic branch checked out, run: 
+
+```bash
+git pull upstream gh-pages
+```
 
 
 ##### **i. If there are no changes in the upstream repository**
